@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../store/auth";
-const backendUrl = import.meta.env.VITE_BACKEND_URL || "http://localhost:3000";
+const backendUrl = import.meta.env.VITE_BACKEND_URL || "https://engilearn.onrender.com";
 const Login = () => {
   const [user, setUser] = useState({
     name: "",
