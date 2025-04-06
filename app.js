@@ -33,9 +33,14 @@ app.use(cors(corsOptions));
 
 const server = createServer(app);
 
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://engilearn.onrender.com"
+];
+
 const io = new Server(server, {
   cors: {
-    origin: process.env.FRONTEND_URL || "http://localhost:5173", // Fallback to default
+    origin: allowedOrigins,
     methods: ["GET", "POST"],
     credentials: true,
   },
