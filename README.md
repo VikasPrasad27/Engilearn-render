@@ -28,19 +28,21 @@
 ## 📸 Screenshots
 
 ### 🏠 Home Page  
-![Home Page](./cleint/engifrontend/src/assets/engihome.png)
+![Home Page](./client/engifrontend/src/assets/engihome.png)
 
-### 📚 Subjects Papers 
-![Subjects](./cleint/engifrontend/src/assets/engipaper.png)
+### 📚 Subjects Papers  
+![Subjects](./client/engifrontend/src/assets/engipaper.png)
 
-### 🤖 Youtube Resourses
-![Youtube](./cleint/engifrontend/src/assets/engiyoutube.png)
+### 🤖 YouTube Resources  
+![YouTube](./client/engifrontend/src/assets/engiyoutube.png)
 
 ### 💼 Startup Jobs  
-![Jobs](./cleint/engifrontend/src/assets/engijobs.png)
+![Jobs](./client/engifrontend/src/assets/engijobs.png)
 
-### 💼 Doubt Solving  
-![Doubt](./cleint/engifrontend/src/assets/engichat.png)
+### ❓ Doubt Solving (Chatbot)  
+![Doubt](./client/engifrontend/src/assets/engichat.png)
+
+
 ---
 
 ## 🛠️ Getting Started
@@ -70,5 +72,7 @@ JWT_SECRET=your_jwt_secret
 OPENAI_API_KEY=your_openai_key
 ```
 ### Folder Structure
-## client/engifrontend is frontend part 
-## other all are backend part, you add them in seperate folder naming server.
+---->client/engifrontend is frontend part 
+---->other all are backend part, you add them in seperate folder naming server.
+
+## Designed and Developed By: Vikas Prasad
