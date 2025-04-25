@@ -14,7 +14,7 @@ const Internships = () => {
         source: 'ycombinator',
       },
       headers: {
-        'x-rapidapi-key': 'f6a68b2480msh73a435efd1707e5p156532jsnb6dfcf2b5744',
+        'x-rapidapi-key': '(your_api_key)',
         'x-rapidapi-host': 'startup-jobs-api.p.rapidapi.com',
       },
     };
