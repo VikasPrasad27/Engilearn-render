@@ -13,7 +13,7 @@ function Aibot() {
     setAnswer("Loading your answer... \n It might take upto 10 seconds");
     try {
       const response = await axios({
-        url: 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyC6wdpsibXWHDEqHlWUs-awVqvlH6BlaSw',
+        url: 'https://(your_openai_api_key)',
         method: "post",
         data: {
           contents: [{ parts: [{ text: question }] }],
